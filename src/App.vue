@@ -1,5 +1,5 @@
 <template>
-  <div id="hook">
+  <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
   </div>
@@ -25,5 +25,7 @@ export default {
   width: 80%;
   height: 80%;
   z-index: 9999999;
+  background: #ffffff;
+  opacity: .8;
 }
 </style>
